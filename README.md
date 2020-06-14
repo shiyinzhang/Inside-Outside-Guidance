@@ -2,7 +2,6 @@
 This project hosts the code for the IOG algorithms for interactive segmentation.
 > [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)
 
-
 > Shiyin Zhang, Jun Hao Liew, Yunchao Wei, Shikui Wei1, Yao Zhao
 
 ![overall](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/overall.jpg "overall")

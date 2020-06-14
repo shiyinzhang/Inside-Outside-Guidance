@@ -16,5 +16,5 @@ Please consider citing our papers in your publications if it helps your research
   title={Interactive Object Segmentation with Inside-Outside Guidance},
   author={Shiyin, Zhang and Jun Hao, Liew and Yunchao, Wei and Shikui, Wei and Yao, Zhao },
   journal={IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2020}'
-}
+  year={2020}
+}'

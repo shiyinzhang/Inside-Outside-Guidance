@@ -13,11 +13,16 @@ With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to 
 ### Citation
 Please consider citing our papers in your publications if it helps your research. The following is a BibTeX reference.
 
-'''
+<
 @article{zhang2020IOG,
+
   title={Interactive Object Segmentation with Inside-Outside Guidance},
+  
   author={Shiyin, Zhang and Jun Hao, Liew and Yunchao, Wei and Shikui, Wei and Yao, Zhao },
+  
   journal={IEEE Conference on Computer Vision and Pattern Recognition},
+  
   year={2020}
+  
 }
-'''
+>

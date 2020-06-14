@@ -10,7 +10,7 @@ This paper explores how to harvest precise object segmentation masks while minim
 
 ### Dataset
 With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
-### Citation
+### Citations
 Please consider citing our papers in your publications if it helps your research. The following is a BibTeX reference.
 
     @article{zhang2020IOG,

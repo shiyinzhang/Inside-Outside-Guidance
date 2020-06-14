@@ -1,7 +1,7 @@
 # Inside-Outside-Guidance (IOG)
 This project hosts the code for the IOG algorithms for interactive segmentation.
 > [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)  
-> Shiyin Zhang, Jun Hao Liew, Yunchao Wei, Shikui Wei1, Yao Zhao  
+> Shiyin Zhang, Jun Hao Liew, Yunchao Wei, Shikui Wei, Yao Zhao  
 
 The code will be released soon. Please stay tuned.
 ![img](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/ims.png "img")
@@ -10,3 +10,11 @@ This paper explores how to harvest precise object segmentation masks while minim
 
 ### Dataset
 With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
+### Citation
+Please consider citing our papers in your publications if it helps your research. The following is a BibTeX reference.
+'@article{zhang2020IOG,
+  title={Interactive Object Segmentation with Inside-Outside Guidance},
+  author={Shiyin, Zhang and Jun Hao, Liew and Yunchao, Wei and Shikui, Wei and Yao, Zhao },
+  journal={IEEE Conference on Computer Vision and Pattern Recognition},
+  year={2020}'
+}

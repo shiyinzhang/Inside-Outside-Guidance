@@ -15,29 +15,25 @@ This paper explores how to harvest precise object segmentation masks while minim
 <table>
     <tr>
         <td width="30%">
-            <tr>
-                <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif"/>
-            </tr>
-            <tr>
-                <td align="center">IOG(3 points)</td>
-            </tr>
-        </td>        
+	<img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif"/>
+        </td>   
         <td width="30%">
-            <tr>            
-                <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif"/>
-            </tr>            
-            <tr>            
-                <td align="center">IOG(Refinement)</td>
-            </tr>        
-        </td>
+	<img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif"/>
+        </td>   
         <td width="30%">
-            <tr>        
-                <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif"/>
-            </tr>            
-            <tr>            
-                <td align="center">IOG(Cross domain)</td>
-            </tr>            
-        </td>
+	<img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif"/>
+        </td> 
+    </tr>
+    <tr>
+        <td width="30%">
+	<td align="center">IOG(3 points)</td>
+        </td>   
+        <td width="30%">
+	<td align="center">IOG(Refinement)</td>
+        </td>   
+        <td width="30%">
+	<td align="center">IOG(Cross domain)</td>
+        </td> 
     </tr>
 </table>
 

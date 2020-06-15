@@ -15,16 +15,28 @@ This paper explores how to harvest precise object segmentation masks while minim
 <table>
     <tr>
         <td width="30%">
+            <tr>
             <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif"/>
+            </tr>
+            <tr>
             <td align="center">IOG(3 points)</td>
+            </tr>
         </td>        
         <td width="30%">
+            <tr>            
             <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif"/>
+            </tr>            
+            <tr>            
             <td align="center">IOG(Refinement)</td>
+            </tr>        
         </td>
         <td width="30%">
+            <tr>        
             <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif"/>
+            </tr>            
+            <tr>            
             <td align="center">IOG(Cross domain)</td>
+            </tr>            
         </td>
     </tr>
 </table>

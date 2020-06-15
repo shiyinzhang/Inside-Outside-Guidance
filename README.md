@@ -5,12 +5,21 @@ This project hosts the code for the IOG algorithms for interactive segmentation.
 
 The code will be released soon. Please stay tuned.
 
+<table>
+    <tr>
+        <td width="30%">
+            <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif"/>
+        </td>        
+        <td width="30%">
+            <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif"/>
+        </td>
+        <td width="30%">
+            <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif"/>
+        </td>
+    </tr>
+</table>
 
-<figure  class="third">
-    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif" width="200"/>
-    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif" width="200"/>
-    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif" width="200"/>
-</figure >
+
 
 
 ![img](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/ims.png "img")

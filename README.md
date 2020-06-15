@@ -4,7 +4,12 @@ This project hosts the code for the IOG algorithms for interactive segmentation.
 > Shiyin Zhang, Jun Hao Liew, Yunchao Wei, Shikui Wei, Yao Zhao  
 
 The code will be released soon. Please stay tuned.
-![IOG](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif)![REFINEMENT](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif)![CROSSDOMAIN](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif)
+
+
+<center class="half">
+    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif" width="200"/><img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif" width="200"/><img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif" width="200"/>
+</center>
+
 
 ![img](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/ims.png "img")
 ### Abstract

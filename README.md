@@ -7,7 +7,9 @@ The code will be released soon. Please stay tuned.
 
 
 <figure  class="third">
-    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif" width="200"/><img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif" width="200"/><img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif" width="200"/>
+    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/IOG.gif" width="200"/>
+    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/refinement.gif" width="200"/>
+    <img src="https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/cross_domain.gif" width="200"/>
 </figure >
 
 

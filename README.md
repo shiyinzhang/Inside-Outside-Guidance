@@ -25,14 +25,14 @@ This paper explores how to harvest precise object segmentation masks while minim
         </td> 
     </tr>
     <tr>
-        <td width="30%">
-	<td align="center">IOG(3 points)</td>
+        <td width="30%" align="center">
+	IOG(3 points)
         </td>   
-        <td width="30%">
-	<td align="center">IOG(Refinement)</td>
+        <td width="30%" align="center">
+	IOG(Refinement)
         </td>   
-        <td width="30%">
-	<td align="center">IOG(Cross domain)</td>
+        <td width="30%" align="center">
+	IOG(Cross domain)
         </td> 
     </tr>
 </table>

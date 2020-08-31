@@ -37,6 +37,34 @@ This paper explores how to harvest precise object segmentation masks while minim
     </tr>
 </table>
 
+### Pretrained models
+| Dataset | Backbone |      Download Link        |
+|---------|-------------|:-------------------------:|
+|PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth]     |
+|PASCAL |  ResNet-101   |  [IOG_PASCAL.pth]   |
+[IOG_PASCAL_SBD.pth]: https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing
+[IOG_PASCAL.pth]: https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing
+
+1. Install requirement  
+  This repo require following dependences.
+  - PyTorch = 0.4
+  - python >= 3.5
+  - torchvision = 0.2
+  - pycocotools
+2. Usage
+You can start training with the following commands:
+```
+# training step
+python train.py
+
+# testing step
+python test.py
+
+# train step
+python eval.py
+```
+3. We set the paths of PASCAL/SBD dataset and pretrained model in mypath.py.
+
 ### Dataset
 With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
 ### Citations

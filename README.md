@@ -40,10 +40,8 @@ This paper explores how to harvest precise object segmentation masks while minim
 ### Pretrained models
 | Dataset | Backbone |      Download Link        |
 |---------|-------------|:-------------------------:|
-|PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth]     |
-|PASCAL |  ResNet-101   |  [IOG_PASCAL.pth]   |
-[IOG_PASCAL_SBD.pth]: https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing
-[IOG_PASCAL.pth]: https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing
+|PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
+|PASCAL |  ResNet-101   |  [IOG_PASCAL.pth](https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing)   |
 
 1. Install requirement  
   This repo require following dependences.

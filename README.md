@@ -40,7 +40,6 @@ This paper explores how to harvest precise object segmentation masks while minim
 
 ### Installation
 1. Install requirement  
-  This repo require following dependences.
   - PyTorch = 0.4
   - python >= 3.5
   - torchvision = 0.2

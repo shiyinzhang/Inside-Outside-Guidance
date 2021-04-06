@@ -3,7 +3,8 @@ This project hosts the code for the IOG algorithms for interactive segmentation.
 > [Interactive Object Segmentation with Inside-Outside Guidance](http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Interactive_Object_Segmentation_With_Inside-Outside_Guidance_CVPR_2020_paper.pdf)  
 > Shiyin Zhang, Jun Hao Liew, Yunchao Wei, Shikui Wei, Yao Zhao  
 
-The code will be released soon. Please stay tuned.
+**Updates:**
+- 2021.4.6 Create the interactive refinement branch for IOG.
 
 ![img](https://github.com/shiyinzhang/Inside-Outside-Guidance/blob/master/ims/ims.png "img")
 
@@ -49,21 +50,24 @@ You can start training with the following commands:
 ```
 # training step
 python train.py
+python train_refinement.py
 
 # testing step
 python test.py
+python test_refinement.py
 
 # train step
 python eval.py
+python eval_refinement.py
 ```
 We set the paths of PASCAL/SBD dataset and pretrained model in mypath.py.
 
 ### Pretrained models
-| Dataset | Backbone |      Download Link        |
-|---------|-------------|:-------------------------:|
-|PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
-|PASCAL |  ResNet-101   |  [IOG_PASCAL.pth](https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing)   |
-
+| Network |Dataset | Backbone |      Download Link        |
+|---------|---------|-------------|:-------------------------:|
+|IOG |PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
+|IOG |PASCAL |  ResNet-101   |  [IOG_PASCAL.pth](https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing)   |
+|IOG-Refinement |PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD_REFINEMENT.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
 ### Dataset
 With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
 ### Citations

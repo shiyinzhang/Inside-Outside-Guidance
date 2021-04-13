@@ -67,7 +67,8 @@ We set the paths of PASCAL/SBD dataset and pretrained model in mypath.py.
 |---------|---------|-------------|:-------------------------:|
 |IOG |PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
 |IOG |PASCAL |  ResNet-101   |  [IOG_PASCAL.pth](https://drive.google.com/file/d/1GLZIQlQ-3KUWaGTQ1g_InVcqesGfGcpW/view?usp=sharing)   |
-|IOG-Refinement |PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD_REFINEMENT.pth](https://drive.google.com/file/d/1Lm1hhMhhjjnNwO4Pf7SC6tXLayH2iH0l/view?usp=sharing)     |
+|IOG-Refinement |PASCAL + SBD  |  ResNet-101 |  [IOG_PASCAL_SBD_REFINEMENT.pth](https://drive.google.com/file/d/1VdOFUZZbtbYt9aIMugKhMKDA6EuqKG30/view?usp=sharing)     |
+
 ### Dataset
 With the annotated bounding boxes (∼0.615M) of ILSVRCLOC, we apply our IOG to collect their pixel-level annotations, named Pixel-ImageNet, which are publicly available at https://github.com/shiyinzhang/Pixel-ImageNet.
 ### Citations
